@@ -1,0 +1,139 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    height: 575px;
+}
+h1{
+    margin-bottom: 50px;
+}
+.content1{
+    display: flex;
+    gap: 0;
+    text-align: center;
+}
+.days{
+    display: flex;
+    flex-direction: column;
+}
+.hours{
+    display: flex;
+    flex-direction: column;
+}
+.mints{
+    display: flex;
+    flex-direction: column;
+}
+#pdays{
+    font-size: 20px;
+}
+#phours{
+    font-size: 20px;
+}
+#pmints{
+    font-size: 20px;
+}
+#psecs{
+    font-size: 20px;
+}
+.secs{
+    display: flex;
+    flex-direction: column;
+}
+#days{
+    font-size: 90px;
+    width: 120px;
+    height: 120px;
+    background-color: #e71212;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#hours{
+    font-size: 90px;
+    width: 120px;
+    height: 120px;
+    background-color: #fffcfc;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#mints{
+    font-size: 90px;
+    width: 120px;
+    height: 120px;
+    background-color: #5c04ea;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#secs{
+    font-size: 90px;
+    width: 120px;
+    height: 120px;
+    background-color: #f18214;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#start{
+    border-radius: 2px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(23, 187, 12);
+    font-weight: bold;
+    font-size: 14px;
+}
+#stop{
+    border-radius: 2px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(204, 8, 8);
+    font-weight: bold;
+    font-size: 14px;
+}
+#reset{
+        border-radius: 2px;
+        width: 100px;
+        height: 40px;
+        background-color: #099dec;
+        font-weight: bold;
+        font-size: 14px;
+    }
+@media (max-width: 530px) {
+    .content1{
+        flex-wrap: wrap;
+        margin-left: 120px;
+        margin-right: 70px;
+    }
+}
+@media (max-width: 470px ) {
+     .content1{
+        flex-wrap: wrap;
+        margin-left: 75px;
+    }
+#days{
+        font-size: 40px;
+        width: 300px;
+        height: 50px;
+}
+#hours{
+    font-size: 40px;
+    width: 300px;
+    height: 50px;
+}
+#mints{
+    font-size: 40px;
+    width: 300px;
+    height: 50px;
+}
+#secs{
+    font-size: 40px;
+    width: 300px;
+    height: 50px;
+}
+h1{
+    margin-bottom: 20px;
+}
+.buttons{
+    margin-bottom: 20px;
+}
+}
